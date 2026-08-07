@@ -1,0 +1,7 @@
+model,strategy,epochs,lr,trainable_params,best_val_acc,test_acc,train_minutes,notebook_cell
+efficientnet_b0,finetune,6,0.0001,4020358,0.980988,0.983704,2.165410,28
+vit_b_16,finetune,6,0.0001,85806346,0.976049,0.981728,13.442917,28
+resnet18,finetune,6,0.0001,11181642,0.978765,0.977284,1.931305,28
+vit_b_16,frozen,6,0.0010,7690,0.959506,0.969877,5.825492,28
+resnet18,frozen,6,0.0010,5130,0.913086,0.918765,1.933229,28
+efficientnet_b0,frozen,6,0.0010,12810,0.912346,0.917531,2.549435,28

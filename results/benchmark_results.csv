@@ -1,0 +1,8 @@
+method,full_data_acc_pct,ten_shot_acc_pct,five_shot_acc_pct,zero_shot_acc_pct,train_minutes,notebook_cell
+Baseline CNN (3-block 64x64),83.7000,,,,1.160000,100
+Supervised TL (EfficientNet-B0 full FT),98.3704,81.8272,78.1728,,2.165410,100
+Prototype classifier (cosine),,80.1000,77.3600,,0.000000,100
+CLIP ViT-B/32 zero-shot,,,,39.679012,0.000000,100
+SimCLR -> linear eval,89.0123,,,,493.230000,100
+SimCLR -> fine-tune,95.1852,78.0247,72.9383,,493.260000,100
+LoRA ViT-B/16 (r=8 q/v),98.2222,,,,3.697045,100
